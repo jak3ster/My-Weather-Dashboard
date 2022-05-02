@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hammersmith+One&family=Righteous&display=swap');
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #f8f8ff;
+}
+
+#weatherContent {
+    display: none;
+}
+
+.navbar {
+    height: 150px !important;
+    background: linear-gradient(#4F9EFF, #A586FF);
+}
+
+#cityDetail,
+#uvIndexColor,
+li {
+    color: black !important;
+}
+
+
+#cityDetail,
+.card {
+    background-color: #5930C7 !important;
+}
+
+#searchResults {
+    height: 100vh;
+    background: #A586FF !important;
+}
+
+#fiveDay .card {
+    border: 1px solid white !important;
+}
+
+#searchHistory li {
+    background-color: #97A6A4;
+    color: #f8f8ff !important;
+}
+
+p {
+    color: #f2f2f2c6;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    color: whitesmoke;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    background: #A586FF;
+}
+
