@@ -81,14 +81,19 @@ function currentCondition(citySearch) {
             // 0-2 (green), 3-5 (yellow), 6-7 (orange), 8-10 (red), 11+ (violet)
             if (uvIndex >= 0 && uvIndex <= 2) {
                 $("#uvIndexColor").css("background-color", "green").css("color", "white");
+                console.log(uvIndex);
             } else if (uvIndex >= 3 && uvIndex <= 5) {
                 $("#uvIndexColor").css("background-color", "yellow").css("color", "white");
+                console.log(uvIndex);
             } else if (uvIndex >= 6 && uvIndex <= 7) {
                 $("#uvIndexColor").css("background-color", "orange").css("color", "white");
+                console.log(uvIndex);
             } else if (uvIndex >= 8 && uvIndex <= 10) {
                 $("#uvIndexColor").css("background-color", "red").css("color", "white");
+                console.log(uvIndex);
             } else {
                 $("#uvIndexColor").css("background-color", "violet").css("color", "white"); 
+                console.log(uvIndex);
             };  
         });
     });
